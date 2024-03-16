@@ -11,3 +11,6 @@ Assets provided by instructor for mockup matching Mockups requested in DemoProje
     V - Add Health
     WASD - Move
     ESC - Pause
+
+
+## run in Debug Mode for visualization of Logging - TinyXml .dll causing issues in release. 
