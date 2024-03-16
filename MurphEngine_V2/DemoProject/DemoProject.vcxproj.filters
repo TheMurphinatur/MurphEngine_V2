@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameApplication">
+      <UniqueIdentifier>{37cf99e5-fea7-4592-a31e-3868146ee56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameParser">
+      <UniqueIdentifier>{60054e04-b10a-4803-9276-6ee85c2f4bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameScenes">
+      <UniqueIdentifier>{5b940cd5-ffd3-4ba8-8350-3f4ece2c7c33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameScenes\MenuScenes">
+      <UniqueIdentifier>{9a2a48c9-a88d-42a6-88fd-fe34f245b737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameScenes\GameScene">
+      <UniqueIdentifier>{313ea121-7f48-4a6a-9e7c-443c724da82d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameComponents">
+      <UniqueIdentifier>{24a346ca-6ba5-46d6-a6cd-d680b2020ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameComponents\CollisionComponents">
+      <UniqueIdentifier>{0294524a-1894-48f5-aae0-d62a2de0a746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameComponents\CollisionComponents\PlayerCollisionComponent">
+      <UniqueIdentifier>{0a28ab2c-f196-440e-895b-cfcb02e05a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameComponents\MovementComponents">
+      <UniqueIdentifier>{e5185ee6-af40-41a6-8e34-f602a00cdc56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameComponents\MovementComponents\PlayerMovementComponents">
+      <UniqueIdentifier>{e64b806e-e456-401b-9c13-15d4ef1ccf53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameComponents\Health">
+      <UniqueIdentifier>{beebc4fb-accd-4c4b-84ef-7fc8a6400e63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameComponents\MovementComponents\RandomMovementComponent">
+      <UniqueIdentifier>{dcd66ee5-a678-4b9b-8306-738971457e82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameComponents\Wallet">
+      <UniqueIdentifier>{736c2f7d-5b53-480f-9661-4ab6ee8ca1b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameComponents\EndLevel">
+      <UniqueIdentifier>{bb7a9f7b-2e23-4e4a-a1f3-430e5a61948f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameComponents\GameWidgets">
+      <UniqueIdentifier>{f2e70830-054a-47b3-acb6-f0f7457784ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameComponents\GameWidgets\WalletWidget">
+      <UniqueIdentifier>{75d9c2d1-5070-4c5e-94ef-c02fd81c4a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameComponents\GameWidgets\PlayerHealthDynamicBar">
+      <UniqueIdentifier>{3ce19277-693e-4543-9154-037cf9d85fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameComponents\GameWidgets\PlayerHealthText">
+      <UniqueIdentifier>{06bf3c5e-06d0-4a46-aba8-f91b69178799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameSettings">
+      <UniqueIdentifier>{61498d94-685c-4c49-85a1-e046cb5cd255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\CosmeticSystem">
+      <UniqueIdentifier>{e4d885af-5679-4a83-a8f2-e4dc4d2d5729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameSettings\GameSettingsMetaData">
+      <UniqueIdentifier>{09d6e0c3-50b8-4a24-b1d5-277245784733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\CosmeticSystem\Player">
+      <UniqueIdentifier>{504ee35c-2b89-4c7b-a15c-4e5690e4bda3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\CosmeticSystem\Enemy">
+      <UniqueIdentifier>{c333b94a-eb4f-41ab-84d9-3f1424b3294c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameScenes\MenuScenes\CharacterSelect">
+      <UniqueIdentifier>{e7b4dda7-d0b0-49f4-b336-6caa7c4f6e41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameScenes\SongSelection">
+      <UniqueIdentifier>{31269317-9a9e-4d5b-a6de-9ec7949d0286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameParser\SongParser">
+      <UniqueIdentifier>{8335bcb1-9226-4b54-8c2c-7e9566e52c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\LocalizationParser">
+      <UniqueIdentifier>{8858697e-7f3f-4d9a-becc-32ce7f68d137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameScenes\Inventory Scene">
+      <UniqueIdentifier>{5e1a33e7-e807-4525-87f9-a537fe9f97df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameApplication\GameComponents\Inventory">
+      <UniqueIdentifier>{fef56404-6e43-41ad-981a-a66b277b0413}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\GameApplication.cpp">
+      <Filter>GameApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\GameParser\GameLevelParser.cpp">
+      <Filter>GameApplication\GameParser</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\Scenes\Level1Scene.cpp">
+      <Filter>GameApplication\GameScenes\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\GameComponents\MovementComponents\PlayerMovementComponent\PlayerMovementComponent.cpp">
+      <Filter>GameApplication\GameComponents\MovementComponents\PlayerMovementComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\GameComponents\Health\HealthComponent.cpp">
+      <Filter>GameApplication\GameComponents\Health</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\GameComponents\MovementComponents\RandomMovementComponent\RandomMovementComponent.cpp">
+      <Filter>GameApplication\GameComponents\MovementComponents\RandomMovementComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\GameComponents\Wallet\WalletComponent.cpp">
+      <Filter>GameApplication\GameComponents\Wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\Scenes\GameScenes\LevelScene.cpp">
+      <Filter>GameApplication\GameScenes\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\GameComponents\Wallet\CashComponent.cpp">
+      <Filter>GameApplication\GameComponents\Wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\GameComponents\EndLevelComponent\EndLevelComponent.cpp">
+      <Filter>GameApplication\GameComponents\EndLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\GameWidgets\WalletTextComponent\WalletWidgetComponent.cpp">
+      <Filter>GameApplication\GameComponents\GameWidgets\WalletWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\GameWidgets\PlayerHealthDynamicBar\PlayerHealthDynamicBar.cpp">
+      <Filter>GameApplication\GameComponents\GameWidgets\PlayerHealthDynamicBar</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\GameWidgets\PlayerHealthTextComponent\PlayerHealthTextComponent.cpp">
+      <Filter>GameApplication\GameComponents\GameWidgets\PlayerHealthText</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\GameSettings\GameSettingsManager.cpp">
+      <Filter>GameApplication\GameSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\GameSettings\SettingsMetaData\GameSettingsMetaData.cpp">
+      <Filter>GameApplication\GameSettings\GameSettingsMetaData</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\CosmeticSystem\CosmeticSystemManager.cpp">
+      <Filter>GameApplication\CosmeticSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\CosmeticSystem\PlayerCosmetics\PlayerCosmeticManager.cpp">
+      <Filter>GameApplication\CosmeticSystem\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\CosmeticSystem\EnemyCosmetics\EnemyCosmeticManager.cpp">
+      <Filter>GameApplication\CosmeticSystem\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\Scenes\CharacterSelect\CharacterSelectScene.cpp">
+      <Filter>GameApplication\GameScenes\MenuScenes\CharacterSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\Scenes\GameScene.cpp">
+      <Filter>GameApplication\GameScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\GameWidgets\CosmeticDisplayWidget\CosmeticDisplayComponent.cpp">
+      <Filter>GameApplication\CosmeticSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\Scenes\SongSelectScene\SongSelectScene.cpp">
+      <Filter>GameApplication\GameScenes\SongSelection</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\GameParser\SongListParser\SongListParser.cpp">
+      <Filter>GameApplication\GameParser\SongParser</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\GameParser\GameLocalization\LocalizationParser.cpp">
+      <Filter>GameApplication\LocalizationParser</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\Scenes\Inventory\InventoryScene.cpp">
+      <Filter>GameApplication\GameScenes\Inventory Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\GameComponents\Inventory\InventoryItemComponent.cpp">
+      <Filter>GameApplication\GameComponents\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\GameComponents\Inventory\InventorySlotComponent.cpp">
+      <Filter>GameApplication\GameComponents\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication\GameComponents\Inventory\InventoryTrashSlotComponent.cpp">
+      <Filter>GameApplication\GameComponents\Inventory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameApplication\GameApplication.h">
+      <Filter>GameApplication</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\GameParser\GameLevelParser.h">
+      <Filter>GameApplication\GameParser</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\Scenes\Level1Scene.h">
+      <Filter>GameApplication\GameScenes\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\GameComponents\MovementComponents\PlayerMovementComponent\PlayerMovementComponent.h">
+      <Filter>GameApplication\GameComponents\MovementComponents\PlayerMovementComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\GameComponents\Health\HealthComponent.h">
+      <Filter>GameApplication\GameComponents\Health</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\GameComponents\MovementComponents\RandomMovementComponent\RandomMovementComponent.h">
+      <Filter>GameApplication\GameComponents\MovementComponents\RandomMovementComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\GameComponents\Wallet\WalletComponent.h">
+      <Filter>GameApplication\GameComponents\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\Scenes\GameScenes\LevelScene.h">
+      <Filter>GameApplication\GameScenes\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\GameComponents\Wallet\CashComponent.h">
+      <Filter>GameApplication\GameComponents\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\GameComponents\EndLevelComponent\EndLevelComponent.h">
+      <Filter>GameApplication\GameComponents\EndLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\GameWidgets\WalletTextComponent\WalletWidgetComponent.h">
+      <Filter>GameApplication\GameComponents\GameWidgets\WalletWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\GameWidgets\PlayerHealthDynamicBar\PlayerHealthDynamicBar.h">
+      <Filter>GameApplication\GameComponents\GameWidgets\PlayerHealthDynamicBar</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\GameWidgets\PlayerHealthTextComponent\PlayerHealthTextComponent.h">
+      <Filter>GameApplication\GameComponents\GameWidgets\PlayerHealthText</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\GameSettings\GameSettingsManager.h">
+      <Filter>GameApplication\GameSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\GameSettings\SettingsMetaData\GameSettingsMetaData.h">
+      <Filter>GameApplication\GameSettings\GameSettingsMetaData</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\CosmeticSystem\CosmeticSystemManager.h">
+      <Filter>GameApplication\CosmeticSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\CosmeticSystem\PlayerCosmetics\PlayerCosmeticManager.h">
+      <Filter>GameApplication\CosmeticSystem\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\CosmeticSystem\EnemyCosmetics\EnemyCosmeticManager.h">
+      <Filter>GameApplication\CosmeticSystem\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\Scenes\CharacterSelect\CharacterSelectScene.h">
+      <Filter>GameApplication\GameScenes\MenuScenes\CharacterSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\Scenes\GameScene.h">
+      <Filter>GameApplication\GameScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\GameWidgets\CosmeticDisplayWidget\CosmeticDisplayComponent.h">
+      <Filter>GameApplication\CosmeticSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\Scenes\SongSelectScene\SongSelectScene.h">
+      <Filter>GameApplication\GameScenes\SongSelection</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\GameParser\SongListParser\SongListParser.h">
+      <Filter>GameApplication\GameParser\SongParser</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\GameParser\GameLocalization\LocalizationParser.h">
+      <Filter>GameApplication\LocalizationParser</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\Scenes\Inventory\InventoryScene.h">
+      <Filter>GameApplication\GameScenes\Inventory Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\GameComponents\Inventory\InventoryItemComponent.h">
+      <Filter>GameApplication\GameComponents\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\GameComponents\Inventory\InventorySlotComponent.h">
+      <Filter>GameApplication\GameComponents\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication\GameComponents\Inventory\InventoryTrashSlotComponent.h">
+      <Filter>GameApplication\GameComponents\Inventory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

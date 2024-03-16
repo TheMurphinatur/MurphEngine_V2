@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{297f8f53-1a77-401c-be82-4f680090bbad}</ProjectGuid>
+    <RootNamespace>DemoProject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)Build\Output\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Build\Intermediate\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)Build\Output\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Build\Intermediate\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)Build\Output\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Build\Intermediate\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)Build\Output\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Build\Intermediate\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)MurphEngine\Middleware\SDL2\lib\$(PlatformShortName)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(CoreLibraryDependencies);SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)MurphEngine\Middleware\SDL2\lib\$(PlatformShortName)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(CoreLibraryDependencies);SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(solutionDir)MurphEngine\Middleware\tinyXML2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>$(CoreLibraryDependencies);SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)MurphEngine\Middleware\SDL2\lib\$(PlatformShortName)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(solutionDir)MurphEngine\Middleware\tinyXML2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)MurphEngine\Middleware\SDL2\lib\$(PlatformShortName)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(CoreLibraryDependencies);SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="GameApplication\CosmeticSystem\CosmeticSystemManager.cpp" />
+    <ClCompile Include="GameApplication\CosmeticSystem\EnemyCosmetics\EnemyCosmeticManager.cpp" />
+    <ClCompile Include="GameApplication\CosmeticSystem\PlayerCosmetics\PlayerCosmeticManager.cpp" />
+    <ClCompile Include="GameApplication\GameApplication.cpp" />
+    <ClCompile Include="GameApplication\GameComponents\EndLevelComponent\EndLevelComponent.cpp" />
+    <ClCompile Include="GameApplication\GameComponents\Health\HealthComponent.cpp" />
+    <ClCompile Include="GameApplication\GameComponents\Inventory\InventoryItemComponent.cpp" />
+    <ClCompile Include="GameApplication\GameComponents\Inventory\InventorySlotComponent.cpp" />
+    <ClCompile Include="GameApplication\GameComponents\Inventory\InventoryTrashSlotComponent.cpp" />
+    <ClCompile Include="GameApplication\GameComponents\MovementComponents\PlayerMovementComponent\PlayerMovementComponent.cpp" />
+    <ClCompile Include="GameApplication\GameComponents\MovementComponents\RandomMovementComponent\RandomMovementComponent.cpp" />
+    <ClCompile Include="GameApplication\GameComponents\Wallet\CashComponent.cpp" />
+    <ClCompile Include="GameApplication\GameComponents\Wallet\WalletComponent.cpp" />
+    <ClCompile Include="GameApplication\GameParser\GameLevelParser.cpp" />
+    <ClCompile Include="GameApplication\GameParser\GameLocalization\LocalizationParser.cpp" />
+    <ClCompile Include="GameApplication\GameParser\SongListParser\SongListParser.cpp" />
+    <ClCompile Include="GameApplication\GameSettings\GameSettingsManager.cpp" />
+    <ClCompile Include="GameApplication\GameSettings\SettingsMetaData\GameSettingsMetaData.cpp" />
+    <ClCompile Include="GameApplication\GameWidgets\CosmeticDisplayWidget\CosmeticDisplayComponent.cpp" />
+    <ClCompile Include="GameApplication\GameWidgets\PlayerHealthDynamicBar\PlayerHealthDynamicBar.cpp" />
+    <ClCompile Include="GameApplication\GameWidgets\PlayerHealthTextComponent\PlayerHealthTextComponent.cpp" />
+    <ClCompile Include="GameApplication\GameWidgets\WalletTextComponent\WalletWidgetComponent.cpp" />
+    <ClCompile Include="GameApplication\Scenes\CharacterSelect\CharacterSelectScene.cpp" />
+    <ClCompile Include="GameApplication\Scenes\GameScene.cpp" />
+    <ClCompile Include="GameApplication\Scenes\GameScenes\LevelScene.cpp" />
+    <ClCompile Include="GameApplication\Scenes\Inventory\InventoryScene.cpp" />
+    <ClCompile Include="GameApplication\Scenes\Level1Scene.cpp" />
+    <ClCompile Include="GameApplication\Scenes\SongSelectScene\SongSelectScene.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MurphEngine\MurphEngine.vcxproj">
+      <Project>{40349796-7ec8-409b-9544-449dda5189dd}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameApplication\CosmeticSystem\CosmeticSystemManager.h" />
+    <ClInclude Include="GameApplication\CosmeticSystem\EnemyCosmetics\EnemyCosmeticManager.h" />
+    <ClInclude Include="GameApplication\CosmeticSystem\PlayerCosmetics\PlayerCosmeticManager.h" />
+    <ClInclude Include="GameApplication\GameApplication.h" />
+    <ClInclude Include="GameApplication\GameComponents\EndLevelComponent\EndLevelComponent.h" />
+    <ClInclude Include="GameApplication\GameComponents\Health\HealthComponent.h" />
+    <ClInclude Include="GameApplication\GameComponents\Inventory\InventoryItemComponent.h" />
+    <ClInclude Include="GameApplication\GameComponents\Inventory\InventorySlotComponent.h" />
+    <ClInclude Include="GameApplication\GameComponents\Inventory\InventoryTrashSlotComponent.h" />
+    <ClInclude Include="GameApplication\GameComponents\MovementComponents\PlayerMovementComponent\PlayerMovementComponent.h" />
+    <ClInclude Include="GameApplication\GameComponents\MovementComponents\RandomMovementComponent\RandomMovementComponent.h" />
+    <ClInclude Include="GameApplication\GameComponents\Wallet\CashComponent.h" />
+    <ClInclude Include="GameApplication\GameComponents\Wallet\WalletComponent.h" />
+    <ClInclude Include="GameApplication\GameParser\GameLevelParser.h" />
+    <ClInclude Include="GameApplication\GameParser\GameLocalization\LocalizationParser.h" />
+    <ClInclude Include="GameApplication\GameParser\SongListParser\SongListParser.h" />
+    <ClInclude Include="GameApplication\GameSettings\GameSettingsManager.h" />
+    <ClInclude Include="GameApplication\GameSettings\SettingsMetaData\GameSettingsMetaData.h" />
+    <ClInclude Include="GameApplication\GameWidgets\CosmeticDisplayWidget\CosmeticDisplayComponent.h" />
+    <ClInclude Include="GameApplication\GameWidgets\PlayerHealthDynamicBar\PlayerHealthDynamicBar.h" />
+    <ClInclude Include="GameApplication\GameWidgets\PlayerHealthTextComponent\PlayerHealthTextComponent.h" />
+    <ClInclude Include="GameApplication\GameWidgets\WalletTextComponent\WalletWidgetComponent.h" />
+    <ClInclude Include="GameApplication\Scenes\CharacterSelect\CharacterSelectScene.h" />
+    <ClInclude Include="GameApplication\Scenes\GameScene.h" />
+    <ClInclude Include="GameApplication\Scenes\GameScenes\LevelScene.h" />
+    <ClInclude Include="GameApplication\Scenes\Inventory\InventoryScene.h" />
+    <ClInclude Include="GameApplication\Scenes\Level1Scene.h" />
+    <ClInclude Include="GameApplication\Scenes\SongSelectScene\SongSelectScene.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
