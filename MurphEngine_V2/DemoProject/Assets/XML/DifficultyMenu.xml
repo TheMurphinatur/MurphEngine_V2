@@ -1,0 +1,134 @@
+<WidgetList>
+    <Background>
+        <PositionComponent x = "0" y = "0" width = "-1" height = "-1" />
+        <SpriteComponent Sprite = "Assets/Background/DifficultyBackground.png"/>
+    </Background>
+
+    <Widget name = "DifficultyText">
+        <PositionComponent x = "350" y = "15" width = "300" height = "100" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+            <Text outputText = "DIFFICULTY" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <!--   Hints check box.        -->
+    <Widget name = "HintsText">
+        <PositionComponent x = "300" y = "125" width = "300" height = "50" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+            <Text outputText = "HINTS" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <Widget name = "HintsCheckBox">
+        <PositionComponent x = "525" y = "125" width = "50" height = "50" />
+        <CheckBoxComponent boxSprite = "Assets/Buttons/CheckBox/Checkbox.png" checkMarkSprite = "Assets/Buttons/CheckBox/Checkmark.png" >
+            <WidgetName name = "HintsCheckMark"/>
+            <checkBoxBackgroundTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <checkBoxSelectTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <checkTint redTint = "0" greenTint = "108" blueTint = "0" alphaTint = "255" />
+        </CheckBoxComponent>
+    </Widget>
+
+    <!--   Toggle button.        -->
+    <Widget name = "PermadeathText">
+        <PositionComponent x = "125" y = "200" width = "300" height = "50" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+            <Text outputText = "PERMADEATH" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <Widget name = "RespawnToggleWidget">
+        <PositionComponent x = "425" y = "200" width = "100" height = "50" />
+        <ToggleComponent boxSprite = "Assets/Buttons/Toggle/ToggleTray.png" toggleKnobSprite = "Assets/Buttons/Toggle/ToggleKnob.png" >
+            <WidgetName name = "RespawnToggle"/>
+            <ToggleBackgroundTint redTint = "255" greenTint = "0" blueTint = "0" alphaTint = "255" />
+            <ToggleSelectTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <ToggleTint redTint = "0" greenTint = "108" blueTint = "0" alphaTint = "255" />
+        </ToggleComponent>
+    </Widget>
+
+    <Widget name = "RespawnsText">
+        <PositionComponent x = "500" y = "200" width = "300" height = "50" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+            <Text outputText = "RESPAWNS" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <!--   Easy Mode selection.        -->
+    <Widget name = "EasyText">
+        <PositionComponent x = "160" y = "525" width = "100" height = "50" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "35">
+            <Text outputText = "EASY" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <Widget name = "EasyCheckBox">
+        <PositionComponent x = "180" y = "600" width = "60" height = "60" />
+        <CheckBoxComponent boxSprite = "Assets/Buttons/CheckBox/Checkbox.png" checkMarkSprite = "Assets/Buttons/CheckBox/Checkmark.png" >
+            <WidgetName name = "EasyCheckMark"/>
+            <checkBoxBackgroundTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <checkBoxSelectTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <checkTint redTint = "0" greenTint = "108" blueTint = "0" alphaTint = "255" />
+        </CheckBoxComponent>
+    </Widget>
+
+    <!--   Normal Mode selection.        -->
+    <Widget name = "NormalText">
+        <PositionComponent x = "475" y = "525" width = "100" height = "50" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "35">
+            <Text outputText = "NORMAL" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <Widget name = "NormalCheckBox">
+        <PositionComponent x = "490" y = "600" width = "60" height = "60" />
+        <CheckBoxComponent boxSprite = "Assets/Buttons/CheckBox/Checkbox.png" checkMarkSprite = "Assets/Buttons/CheckBox/Checkmark.png" >
+            <WidgetName name = "NormalCheckMark"/>
+            <checkBoxBackgroundTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <checkBoxSelectTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <checkTint redTint = "0" greenTint = "108" blueTint = "0" alphaTint = "255" />
+        </CheckBoxComponent>
+    </Widget>
+    
+    <!--   Hard Mode selection.        -->
+    <Widget name = "HardText">
+        <PositionComponent x = "775" y = "525" width = "100" height = "50" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+            <Text outputText = "HARD" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <Widget name = "HardCheckBox">
+        <PositionComponent x = "790" y = "600" width = "60" height = "60" />
+        <CheckBoxComponent boxSprite = "Assets/Buttons/CheckBox/Checkbox.png" checkMarkSprite = "Assets/Buttons/CheckBox/Checkmark.png" >
+            <WidgetName name = "HardCheckMark"/>
+            <checkBoxBackgroundTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <checkBoxSelectTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <checkTint redTint = "0" greenTint = "108" blueTint = "0" alphaTint = "255" />
+        </CheckBoxComponent>
+    </Widget>
+
+    <!--   Back Button      -->
+    <Widget name = "BackButtonWidget">
+        <PositionComponent x = "375" y = "700" width = "250" height = "50" />
+        <ButtonComponent Sprite = "Assets/Buttons/StartButton.png" >
+            <ButtonCallback callback = "PreviousScene" />
+            <WidgetName name = "BackButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "255" greenTint = "0" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "25">
+            <Text outputText = "BACK" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+</WidgetList>

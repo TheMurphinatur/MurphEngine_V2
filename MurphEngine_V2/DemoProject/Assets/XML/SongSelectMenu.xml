@@ -1,0 +1,173 @@
+<WidgetList>
+    <Background>
+        <PositionComponent x = "0" y = "0" width = "-1" height = "-1" />
+        <SpriteComponent Sprite = "Assets/Background/SongBackground.png"/>
+    </Background>
+
+    <Widget name = "SongWidget_1">
+        <PositionComponent x = "650" y = "0" width = "350" height = "76" />
+        <ButtonComponent Sprite = "Assets/Buttons/StartButton.png" >
+            <ButtonTextCallback TextOutput = "American Idiot - Green Day" />
+            <WidgetName name = "SongWidget_1"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "20">
+            <Text outputText = "American Idiot - Green Day" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <Widget name = "SongWidget_2">
+        <PositionComponent x = "650" y = "76" width = "350" height = "76" />
+        <ButtonComponent Sprite = "Assets/Buttons/StartButton.png" >
+            <ButtonTextCallback TextOutput = "Hallucinogenics - Matt Maeson" />
+            <WidgetName name = "SongWidget_2"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "20">
+            <Text outputText = "Hallucinogenics - Matt Maeson" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <Widget name = "SongWidget_3">
+        <PositionComponent x = "650" y = "152" width = "350" height = "76" />
+        <ButtonComponent Sprite = "Assets/Buttons/StartButton.png" >
+            <ButtonTextCallback TextOutput = "Hallucinogenics - Matt Maeson" />
+            <WidgetName name = "SongWidget_3"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "20">
+            <Text outputText = "Hallucinogenics - Matt Maeson" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <Widget name = "SongWidget_4">
+        <PositionComponent x = "650" y = "228" width = "350" height = "76" />
+        <ButtonComponent Sprite = "Assets/Buttons/StartButton.png" >
+            <ButtonTextCallback TextOutput = "Hallucinogenics - Matt Maeson" />
+            <WidgetName name = "SongWidget_4"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "20">
+            <Text outputText = "Hallucinogenics - Matt Maeson" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <Widget name = "SongWidget_5">
+        <PositionComponent x = "650" y = "304" width = "350" height = "76" />
+        <ButtonComponent Sprite = "Assets/Buttons/StartButton.png" >
+            <ButtonTextCallback TextOutput = "Hallucinogenics - Matt Maeson" />
+            <WidgetName name = "SongWidget_5"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "20">
+            <Text outputText = "Hallucinogenics - Matt Maeson" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <Widget name = "SongWidget_6">
+        <PositionComponent x = "650" y = "380" width = "350" height = "76" />
+        <ButtonComponent Sprite = "Assets/Buttons/StartButton.png" >
+            <ButtonTextCallback TextOutput = "Hallucinogenics - Matt Maeson" />
+            <WidgetName name = "SongWidget_6"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "20">
+            <Text outputText = "Hallucinogenics - Matt Maeson" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <Widget name = "SongWidget_7">
+        <PositionComponent x = "650" y = "456" width = "350" height = "76" />
+        <ButtonComponent Sprite = "Assets/Buttons/StartButton.png" >
+            <ButtonTextCallback TextOutput = "Hallucinogenics - Matt Maeson" />
+            <WidgetName name = "SongWidget_7"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "20">
+            <Text outputText = "Hallucinogenics - Matt Maeson" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <Widget name = "SongWidget_8">
+        <PositionComponent x = "650" y = "532" width = "350" height = "76" />
+        <ButtonComponent Sprite = "Assets/Buttons/StartButton.png" >
+            <ButtonTextCallback TextOutput = "Hallucinogenics - Matt Maeson" />
+            <WidgetName name = "SongWidget_8"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "20">
+            <Text outputText = "Hallucinogenics - Matt Maeson" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <Widget name = "SongWidget_9">
+        <PositionComponent x = "650" y = "608" width = "350" height = "76" />
+        <ButtonComponent Sprite = "Assets/Buttons/StartButton.png" >
+            <ButtonTextCallback TextOutput = "Hallucinogenics - Matt Maeson" />
+            <WidgetName name = "SongWidget_9"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "20">
+            <Text outputText = "Hallucinogenics - Matt Maeson" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <Widget name = "SongWidget_10">
+        <PositionComponent x = "650" y = "684" width = "350" height = "76" />
+        <ButtonComponent Sprite = "Assets/Buttons/StartButton.png" >
+            <ButtonTextCallback TextOutput = "Hallucinogenics - Matt Maeson" />
+            <WidgetName name = "SongWidget_10"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "20">
+            <Text outputText = "Hallucinogenics - Matt Maeson" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+
+    <Widget name = "BackButtonWidget">
+        <PositionComponent x = "25" y = "700" width = "100" height = "60" />
+        <ButtonComponent Sprite = "Assets/Buttons/LittleButton.png" >
+            <ButtonCallback callback = "PreviousScene" />
+            <WidgetName name = "BackButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "30">
+            <Text outputText = "BACK" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+</WidgetList>

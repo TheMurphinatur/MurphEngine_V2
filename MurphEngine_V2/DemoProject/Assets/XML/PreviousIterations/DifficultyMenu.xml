@@ -1,0 +1,134 @@
+<ButtonList>
+    <Background>
+        <PositionComponent x = "0" y = "0" width = "-1" height = "-1" />
+        <SpriteComponent Sprite = "Assets/Background/DifficultyBackground.png"/>
+    </Background>
+
+    <Text>
+        <PositionComponent x = "350" y = "15" width = "300" height = "100" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+            <Text outputText = "DIFFICULTY" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Text>
+
+    <!--   Hints check box.        -->
+    <Text>
+        <PositionComponent x = "300" y = "175" width = "300" height = "50" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+            <Text outputText = "HINTS" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Text>
+
+    <CheckBox>
+        <PositionComponent x = "525" y = "175" width = "50" height = "50" />
+        <CheckBoxComponent boxSprite = "Assets/Buttons/CheckBox/Checkbox.png" checkMarkSprite = "Assets/Buttons/CheckBox/Checkmark.png" >
+            <ButtonName name = "HintsCheckMark"/>
+            <checkBoxBackgroundTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <checkBoxSelectTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <checkTint redTint = "0" greenTint = "108" blueTint = "0" alphaTint = "255" />
+        </CheckBoxComponent>
+    </CheckBox>
+
+    <!--   Toggle button.        -->
+    <Text>
+        <PositionComponent x = "125" y = "250" width = "300" height = "50" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+            <Text outputText = "PERMADEATH" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Text>
+
+    <Toggle>
+        <PositionComponent x = "425" y = "250" width = "100" height = "50" />
+        <ToggleComponent boxSprite = "Assets/Buttons/Toggle/ToggleTray.png" toggleKnobSprite = "Assets/Buttons/Toggle/ToggleKnob.png" >
+            <ButtonName name = "RespawnToggle"/>
+            <ToggleBackgroundTint redTint = "255" greenTint = "0" blueTint = "0" alphaTint = "255" />
+            <ToggleSelectTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <ToggleTint redTint = "0" greenTint = "108" blueTint = "0" alphaTint = "255" />
+        </ToggleComponent>
+    </Toggle>
+
+    <Text>
+        <PositionComponent x = "500" y = "250" width = "300" height = "50" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+            <Text outputText = "RESPAWNS" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Text>
+
+    <!--   Easy Mode selection.        -->
+    <Text>
+        <PositionComponent x = "160" y = "650" width = "100" height = "50" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+            <Text outputText = "EASY" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Text>
+
+    <CheckBox>
+        <PositionComponent x = "170" y = "725" width = "75" height = "75" />
+        <CheckBoxComponent boxSprite = "Assets/Buttons/CheckBox/Checkbox.png" checkMarkSprite = "Assets/Buttons/CheckBox/Checkmark.png" >
+            <ButtonName name = "EasyCheckMark"/>
+            <checkBoxBackgroundTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <checkBoxSelectTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <checkTint redTint = "0" greenTint = "108" blueTint = "0" alphaTint = "255" />
+        </CheckBoxComponent>
+    </CheckBox>
+
+    <!--   Normal Mode selection.        -->
+    <Text>
+        <PositionComponent x = "425" y = "650" width = "200" height = "50" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+            <Text outputText = "NORMAL" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Text>
+
+    <CheckBox>
+        <PositionComponent x = "475" y = "725" width = "75" height = "75" />
+        <CheckBoxComponent boxSprite = "Assets/Buttons/CheckBox/Checkbox.png" checkMarkSprite = "Assets/Buttons/CheckBox/Checkmark.png" >
+            <ButtonName name = "NormalCheckMark"/>
+            <checkBoxBackgroundTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <checkBoxSelectTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <checkTint redTint = "0" greenTint = "108" blueTint = "0" alphaTint = "255" />
+        </CheckBoxComponent>
+    </CheckBox>
+    
+    <!--   Hard Mode selection.        -->
+    <Text>
+        <PositionComponent x = "700" y = "650" width = "200" height = "50" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+            <Text outputText = "HARD" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Text>
+
+    <CheckBox>
+        <PositionComponent x = "765" y = "725" width = "75" height = "75" />
+        <CheckBoxComponent boxSprite = "Assets/Buttons/CheckBox/Checkbox.png" checkMarkSprite = "Assets/Buttons/CheckBox/Checkmark.png" >
+            <ButtonName name = "HardCheckMark"/>
+            <checkBoxBackgroundTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <checkBoxSelectTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <checkTint redTint = "0" greenTint = "108" blueTint = "0" alphaTint = "255" />
+        </CheckBoxComponent>
+    </CheckBox>
+
+    <!--   Back Button      -->
+    <Button>
+        <PositionComponent x = "250" y = "900" width = "500" height = "50" />
+        <ButtonComponent Sprite = "Assets/Buttons/StartButton.png" >
+            <ButtonCallback callback = "BackMenu" />
+            <ButtonName name = "BackButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "255" greenTint = "0" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "25">
+            <Text outputText = "BACK" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Button>
+
+</ButtonList>

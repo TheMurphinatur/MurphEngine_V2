@@ -1,0 +1,22 @@
+<EntityList>
+    <Background>
+        <PositionComponent x = "0" y = "0" width = "-1" height = "-1" />
+        <SpriteComponent Sprite = "Assets/Background/GameBackground.png" />
+    </Background>
+
+    <Player>
+        <PositionComponent x = "50" y = "150" width = "100" height = "100" />
+        <PlayerCosmeticComponent Sprite = "" />
+        <PlayerMovementComponent moveSpeed = "0.25f" />
+        <CollisionComponent Blocking = "true" />
+        <WalletComponent/>
+        <HealthComponent maxHealth = "10" />
+    </Player>
+
+    <Entity>
+        <RandomPositionComponent width = "50" height = "50" />
+        <SpriteComponent Sprite = "Assets/Sprites/Enemy.png" />
+        <RandomMovementComponent directionChangeDelay = "2500.0f"  moveSpeed = "0.10f"/>
+        <CollisionComponent Blocking = "true" />
+    </Entity>
+</EntityList>

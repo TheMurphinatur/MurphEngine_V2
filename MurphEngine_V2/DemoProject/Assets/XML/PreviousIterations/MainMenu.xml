@@ -1,0 +1,60 @@
+<ButtonList>
+    <Background>
+        <PositionComponent x = "0" y = "0" width = "-1" height = "-1" />
+        <SpriteComponent Sprite = "Assets/Background/MainBackground.png"/>
+    </Background>
+
+    <Text>
+        <PositionComponent x = "350" y = "200" width = "300" height = "100" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+            <Text outputText = "MAIN" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Text>
+
+    <Button>
+        <PositionComponent x = "300" y = "350" width = "400" height = "100" />
+        <ButtonComponent Sprite = "Assets/Buttons/Button.png" >
+            <ButtonCallback callback = "PlayButton" />
+            <ButtonName name = "PlayButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "100" greenTint = "255" blueTint = "100" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "100" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "35">
+            <Text outputText = "PLAY" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Button>
+
+    <Button>
+        <PositionComponent x = "300" y = "475" width = "400" height = "100" />
+        <ButtonComponent Sprite = "Assets/Buttons/Button.png" >
+            <ButtonCallback callback = "OptionsMenu" />
+            <ButtonName name = "OptionsButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "35">
+            <Text outputText = "OPTIONS" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Button>
+
+    <Button>
+        <PositionComponent x = "300" y = "600" width = "400" height = "100" />
+        <ButtonComponent Sprite = "Assets/Buttons/Button.png" >
+            <ButtonCallback callback = "QuitApplication" />
+            <ButtonName name = "QuitButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "255" greenTint = "0" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "35">
+            <Text outputText = "QUIT" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Button>
+
+</ButtonList>

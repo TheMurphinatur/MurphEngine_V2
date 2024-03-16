@@ -1,0 +1,174 @@
+<WidgetList>
+    <Background>
+        <PositionComponent x = "0" y = "0" width = "-1" height = "-1" />
+        <SpriteComponent Sprite = "Assets/Background/InventoryBackground.png"/>
+    </Background>
+
+    <!-- Row -->
+    <Widget name = "Inventory Slot">
+            <PositionComponent x = "30" y = "50" width = "182" height = "130" />
+            <SpriteComponent Sprite = "Assets/Sprites/InventorySlot.png"/>
+            <InventorySlotComponent/>
+    </Widget>
+
+    <Widget name = "Inventory Slot_2">
+            <PositionComponent x = "232" y = "50" width = "182" height = "130" />
+            <SpriteComponent Sprite = "Assets/Sprites/InventorySlot.png"/>
+            <InventorySlotComponent/>
+    </Widget>
+
+    <Widget name = "Inventory Slot_3">
+            <PositionComponent x = "434" y = "50" width = "182" height = "130" />
+            <SpriteComponent Sprite = "Assets/Sprites/InventorySlot.png"/>
+            <InventorySlotComponent/>
+    </Widget>
+
+    <Widget name = "Inventory Slot_4">
+            <PositionComponent x = "636" y = "50" width = "182" height = "130" />
+            <SpriteComponent Sprite = "Assets/Sprites/InventorySlot.png"/>
+            <InventorySlotComponent/>
+    </Widget>  
+
+    <Widget name = "Inventory Slot_5">
+            <PositionComponent x = "838" y = "50" width = "182" height = "130" />
+            <SpriteComponent Sprite = "Assets/Sprites/InventorySlot.png"/>
+            <InventorySlotComponent/>
+    </Widget>  
+
+    <Widget name = "Inventory Slot_6">
+            <PositionComponent x = "30" y = "190" width = "182" height = "130" />
+            <SpriteComponent Sprite = "Assets/Sprites/InventorySlot.png"/>
+            <InventorySlotComponent/>
+    </Widget>
+
+    <Widget name = "Inventory Slot_7">
+            <PositionComponent x = "232" y = "190" width = "182" height = "130" />
+            <SpriteComponent Sprite = "Assets/Sprites/InventorySlot.png"/>
+            <InventorySlotComponent/>
+    </Widget>
+
+    <Widget name = "Inventory Slot_8">
+            <PositionComponent x = "434" y = "190" width = "182" height = "130" />
+            <SpriteComponent Sprite = "Assets/Sprites/InventorySlot.png"/>
+            <InventorySlotComponent/>
+    </Widget>
+
+    <Widget name = "Inventory Slot_9">
+            <PositionComponent x = "636" y = "190" width = "182" height = "130" />
+            <SpriteComponent Sprite = "Assets/Sprites/InventorySlot.png"/>
+            <InventorySlotComponent/>
+    </Widget>  
+
+    <Widget name = "Inventory Slot_10">
+            <PositionComponent x = "838" y = "190" width = "182" height = "130" />
+            <SpriteComponent Sprite = "Assets/Sprites/InventorySlot.png"/>
+            <InventorySlotComponent/>
+    </Widget>  
+
+    <Widget name = "Inventory Slot_11">
+            <PositionComponent x = "30" y = "330" width = "182" height = "130" />
+            <SpriteComponent Sprite = "Assets/Sprites/InventorySlot.png"/>
+            <InventorySlotComponent/>
+    </Widget>
+
+    <Widget name = "Inventory Slot_12">
+            <PositionComponent x = "232" y = "330" width = "182" height = "130" />
+            <SpriteComponent Sprite = "Assets/Sprites/InventorySlot.png"/>
+            <InventorySlotComponent/>
+    </Widget>
+
+    <Widget name = "Inventory Slot_13">
+            <PositionComponent x = "434" y = "330" width = "182" height = "130" />
+            <SpriteComponent Sprite = "Assets/Sprites/InventorySlot.png"/>
+            <InventorySlotComponent/>
+    </Widget>
+
+    <Widget name = "Inventory Slot_14">
+            <PositionComponent x = "636" y = "330" width = "182" height = "130" />
+            <SpriteComponent Sprite = "Assets/Sprites/InventorySlot.png"/>
+            <InventorySlotComponent/>
+    </Widget>  
+
+    <Widget name = "Inventory Slot_15">
+            <PositionComponent x = "838" y = "330" width = "182" height = "130" />
+            <SpriteComponent Sprite = "Assets/Sprites/InventorySlot.png"/>
+            <InventorySlotComponent/>
+    </Widget>  
+
+    <Widget name = "Inventory Slot_16">
+            <PositionComponent x = "30" y = "470" width = "182" height = "130" />
+            <SpriteComponent Sprite = "Assets/Sprites/InventorySlot.png"/>
+            <InventorySlotComponent/>
+    </Widget>
+
+    <Widget name = "Inventory Slot_17">
+            <PositionComponent x = "232" y = "470" width = "182" height = "130" />
+            <SpriteComponent Sprite = "Assets/Sprites/InventorySlot.png"/>
+            <InventorySlotComponent/>
+    </Widget>
+
+    <Widget name = "Inventory Slot_18">
+            <PositionComponent x = "434" y = "470" width = "182" height = "130" />
+            <SpriteComponent Sprite = "Assets/Sprites/InventorySlot.png"/>
+            <InventorySlotComponent/>
+    </Widget>
+
+    <Widget name = "Inventory Slot_19">
+            <PositionComponent x = "636" y = "470" width = "182" height = "130" />
+            <SpriteComponent Sprite = "Assets/Sprites/InventorySlot.png"/>
+            <InventorySlotComponent/>
+    </Widget>  
+
+    <Widget name = "Inventory Slot_20">
+            <PositionComponent x = "838" y = "470" width = "182" height = "130" />
+            <SpriteComponent Sprite = "Assets/Sprites/InventorySlot.png"/>
+            <InventorySlotComponent/>
+    </Widget>
+
+    <Widget name = "Inventory Slot_Trash">
+            <PositionComponent x = "838" y = "620" width = "182" height = "130" />
+            <SpriteComponent Sprite = "Assets/Sprites/InventorySlot.png"/>
+            <InventoryTrashSlotComponent/>
+    </Widget>
+
+    <Widget name = "Trash_Icon">
+        <PositionComponent x = "890" y = "640" width = "80" height = "80" />
+        <SpriteComponent Sprite = "Assets/Sprites/TrashCan.png"/>
+    </Widget>
+
+    <Widget name = "Pencil">
+        <PositionComponent x = "300" y = "80" width = "50" height = "80" />
+        <InventoryItemComponent Sprite = "Assets/Sprites/Pencil.png"/>
+    </Widget>
+
+    <Widget name = "Calculator">
+        <PositionComponent x = "500" y = "210" width = "50" height = "80" />
+        <InventoryItemComponent Sprite = "Assets/Sprites/Calculator.png"/>
+    </Widget>
+
+    <Widget name = "Pen">
+        <PositionComponent x = "900" y = "360" width = "50" height = "80" />
+        <InventoryItemComponent Sprite = "Assets/Sprites/Pen.png"/>
+    </Widget>
+
+    <Widget name = "Notebook">
+        <PositionComponent x = "100" y = "500" width = "50" height = "80" />
+        <InventoryItemComponent Sprite = "Assets/Sprites/Notebook.png"/>
+    </Widget>
+
+    <Widget name = "BackButtonWidget">
+        <PositionComponent x = "25" y = "700" width = "300" height = "60" />
+        <ButtonComponent Sprite = "Assets/Buttons/LittleButton.png" >
+            <ButtonCallback callback = "PreviousScene" />
+            <WidgetName name = "BackButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "255" greenTint = "0" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "30">
+            <Text outputText = "BACK" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>    
+
+</WidgetList>

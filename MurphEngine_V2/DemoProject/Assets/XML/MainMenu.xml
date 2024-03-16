@@ -1,0 +1,90 @@
+<WidgetList>
+    <Background>
+        <PositionComponent x = "0" y = "0" width = "-1" height = "-1" />
+        <SpriteComponent Sprite = "Assets/Background/MainBackground.png"/>
+    </Background>
+
+    <Widget name = "MainText">
+        <PositionComponent x = "350" y = "150" width = "300" height = "100" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+            <Text outputText = "MAIN" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <Widget name = "Play">
+        <PositionComponent x = "360" y = "250" width = "300" height = "75" />
+        <ButtonComponent Sprite = "Assets/Buttons/Button.png" >
+            <ButtonCallback callback = "CharacterSelectMenu" />
+            <WidgetName name = "CharacterSelectMenu"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "35">
+            <Text outputText = "PLAY" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <Widget name = "Options">
+        <PositionComponent x = "360" y = "350" width = "300" height = "75" />
+        <ButtonComponent Sprite = "Assets/Buttons/Button.png" >
+            <ButtonCallback callback = "OptionsMenu" />
+            <WidgetName name = "OptionsButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "35">
+            <Text outputText = "OPTIONS" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <Widget name = "Quit">
+        <PositionComponent x = "360" y = "450" width = "300" height = "75" />
+        <ButtonComponent Sprite = "Assets/Buttons/Button.png" >
+            <ButtonCallback callback = "QuitApplication" />
+            <WidgetName name = "QuitButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "255" greenTint = "0" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "35">
+            <Text outputText = "QUIT" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <Widget name = "Songs">
+        <PositionComponent x = "840" y = "650" width = "150" height = "60" />
+        <ButtonComponent Sprite = "Assets/Buttons/LittleButton.png" >
+            <ButtonCallback callback = "SongSelectionMenu" />
+            <WidgetName name = "SongSelectMenu"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "20">
+            <Text outputText = "SONGS" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <Widget name = "Inventory">
+        <PositionComponent x = "740" y = "450" width = "200" height = "60" />
+        <ButtonComponent Sprite = "Assets/Buttons/Button.png" >
+            <ButtonCallback callback = "InventoryMenu" />
+            <WidgetName name = "InventoryMenu"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "20">
+            <Text outputText = "INVENTORY" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+</WidgetList>

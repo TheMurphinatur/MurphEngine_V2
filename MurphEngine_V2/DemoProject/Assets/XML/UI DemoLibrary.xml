@@ -1,0 +1,112 @@
+       <!--   static Image. -1 = full size  -->
+    <Background>
+        <PositionComponent x = "0" y = "0" width = "-1" height = "-1" />
+        <SpriteComponent Sprite = "Assets/Background/DifficultyBackground.png"/>
+    </Background>   
+   
+    <!--   floating Text.        -->
+    <Widget name = "Text">
+        <PositionComponent x = "300" y = "175" width = "300" height = "50" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+            <Text outputText = "HINTS" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <!-- Basic Button-->
+    <Widgetame = "BasicButton">
+        <PositionComponent x = "250" y = "900" width = "500" height = "50" />
+        <ButtonComponent Sprite = "Assets/Buttons/StartButton.png" >
+            <ButtonCallback callback = "QuitApplication" />
+            <WidgetName name = "Back"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "255" greenTint = "0" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "25">
+            <Text outputText = "BACK" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <!--   Check Box.        -->
+    <Widget name = "BasicCheckBox">
+        <PositionComponent x = "525" y = "175" width = "50" height = "50" />
+        <CheckBoxComponent boxSprite = "Assets/Buttons/CheckBox/Checkbox.png" checkMarkSprite = "Assets/Buttons/CheckBox/Checkmark.png" >
+            <WidgetName name = "MonoCheck"/>
+            <checkBoxBackgroundTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <checkBoxSelectTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <checkTint redTint = "0" greenTint = "108" blueTint = "0" alphaTint = "255" />
+        </CheckBoxComponent>
+    </Widget>
+
+    <!--   Toggle button.        -->
+    <Widget name = "BasicToggleButton">
+        <PositionComponent x = "425" y = "250" width = "100" height = "50" />
+        <ToggleComponent boxSprite = "Assets/Buttons/Toggle/ToggleTray.png" toggleKnobSprite = "Assets/Buttons/Toggle/ToggleKnob.png" >
+            <WidgetName name = "MuteToggle"/>
+            <ToggleBackgroundTint redTint = "255" greenTint = "0" blueTint = "0" alphaTint = "255" />
+            <ToggleSelectTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <ToggleTint redTint = "0" greenTint = "108" blueTint = "0" alphaTint = "255" />
+        </ToggleComponent>
+    </Widget>
+
+    <!-- Slider Button -->
+    <Widget name = "BasicSlider">
+        <PositionComponent x = "250" y = "500" width = "300" height = "30" />
+        <SliderComponent sliderTraySprite = "Assets/Buttons/Slider/SliderGroove.png" sliderKnobSprite = "Assets/Buttons/Slider/SliderKnob.png" >
+            <WidgetName name = "VolumeSlider"/>
+            <SliderKnobSize width = "20" height = "50" />
+            <SliderTrayTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <SliderKnobTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255" />
+            <SliderValues min = "0" max = "10" />
+        </SliderComponent>
+    </Widget>
+
+    <!-- Text Box -->
+    <Widget>
+        <PositionComponent x = "250" y = "500" width = "300" height = "30" />
+        
+    </Widget>
+
+
+<!-- COMPONENTS! -->
+
+    <!-- Position Component -->
+    <PositionComponent x = "300" y = "175" width = "300" height = "50" />
+
+    <!-- Random Position Component (position component with a random generation instead of explicit input) -->
+    <RandomPositionComponent width = "300" height = "50" />
+
+    <!-- Player Movement Component -->
+    <PlayerMovementComponent moveSpeed = "0.25f" />
+
+    <!-- Random Movement Component -->
+    <RandomMovementComponent directionChangeDelay = "1.0f"  moveSpeed = "0.25f"/>
+
+    <!-- Health Component -->
+    <HealthComponent maxHealth = "10" />
+
+    <!-- Wallet Component -->
+    <WalletComponent/>
+
+    <!-- Text Component -->
+    <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+        <Text outputText = "HINTS" />
+        <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+    </TextComponent>    
+
+    <!-- TDynamic Bar Component -->
+    <DynamicBarComponent traySprite = "Assets/HUD/Health bar/HealthTray.png" barSprite = "Assets/HUD/Health bar/HealthBar.png" >
+        <WidgetName name = "DynamicHealthBar"/>
+        <TrayTint redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        <BarTint redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        <Values min = "0" max = "10" />
+    </DynamicBarComponent>
+
+    <!-- Player Health Component -->
+    <PlayerHealthDynamicBar traySprite = "Assets/HUD/Health bar/HealthTray.png" barSprite = "Assets/HUD/Health bar/HealthBar.png" >
+        <WidgetName name = "PlayerHealthDynamicBar"/>
+        <TrayTint redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        <BarTint redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+    </PlayerHealthDynamicBar>

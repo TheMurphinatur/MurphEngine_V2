@@ -1,0 +1,59 @@
+<WidgetList>
+    <Background>
+        <PositionComponent x = "0" y = "0" width = "-1" height = "-1" />
+        <SpriteComponent Sprite = "Assets/Background/CharacterBackground.png"/>
+    </Background>
+
+    <Widget name = "SamButtonWidget">
+        <PositionComponent x = "425" y = "250" width = "200" height = "300" />
+        <ButtonComponent Sprite = "Assets/Characters/Sam/Sam.png" >
+            <ButtonCallback callback = "SamOutfit" />
+            <WidgetName name = "SamOutfitButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "150" greenTint = "150" blueTint = "150" alphaTint = "255"/>
+        </ButtonComponent>
+    </Widget>
+    <Widget name = "SamButtonText">
+        <PositionComponent x = "385" y = "550" width = "300" height = "50" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+            <Text outputText = "SAM" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <Widget name = "MaxButtonWidget">
+        <PositionComponent x = "700" y = "250" width = "200" height = "300" />
+        <ButtonComponent Sprite = "Assets/Characters/Max/Max.png" >
+            <ButtonCallback callback = "MaxOutfit" />
+            <WidgetName name = "MaxOutfitButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "150" greenTint = "150" blueTint = "150" alphaTint = "255"/>
+        </ButtonComponent>
+    </Widget>
+    <Widget name = "MaxButtonText">
+        <PositionComponent x = "660" y = "550" width = "300" height = "50" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+            <Text outputText = "MAX" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <Widget name = "BackButtonWidget">
+        <PositionComponent x = "500" y = "660" width = "400" height = "75" />
+        <ButtonComponent Sprite = "Assets/Buttons/Button.png" >
+            <ButtonCallback callback = "PreviousScene" />
+            <WidgetName name = "BackButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "255" greenTint = "0" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "35">
+            <Text outputText = "BACK" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+
+</WidgetList>

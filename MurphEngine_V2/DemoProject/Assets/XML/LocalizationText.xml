@@ -1,0 +1,58 @@
+<LocalizedText>
+    <!-- List Languages we are Localizing Here-->
+    <LanguageList>
+        <Language name = "French"/>
+        <Language name = "Italian"/>
+        <Language name = "German"/>
+        <Language name = "Spanish"/>
+    </LanguageList>
+
+    <!-- Load Strings we are localizing into Localization Manager-->
+    <Text English = "MAIN"
+          French = "PRINCIPAL"
+          Italian = "PRINCIPALE"
+          German = "HAUPT"
+          Spanish = "PRINCIPAL" />
+
+    <Text English = "PLAY"
+          French = "JOUER"
+          Italian = "GIOCARE"
+          German = "SPIELEN"
+          Spanish = "JUGAR" />
+
+    <Text English = "OPTIONS"
+          French = "CHOIX"
+          Italian = "OPZIONI"
+          German = "OPTIONEN"
+          Spanish = "OPCIONES" />
+
+    <Text English = "QUIT"
+          French = "QUITTER"
+          Italian = "USCIRE"
+          German = "VERLASSEN"
+          Spanish = "DEJAR" />
+
+    <Text English = "DIFFICULTY"
+          French = "DIFFICULTE"
+          Italian = "DIFFICOLTA"
+          German = "SCHWIERIGKEIT"
+          Spanish = "DIFICULTAD" />
+
+    <Text English = "VOLUME"
+          French = "TOME"
+          Italian = "TOMO"
+          German = "VOLUMEN"
+          Spanish = "VOLUMEN" />
+
+    <Text English = "BACK"
+          French = "RETOUR"
+          Italian = "RITORNO"
+          German = "ZURUCK"
+          Spanish = "ESPALDA" />
+
+    <Text English = "SONGS"
+          French = "CHANSONS"
+          Italian = "CANZONI"
+          German = "LIEDER"
+          Spanish = "CANCIONES" />
+</LocalizedText>

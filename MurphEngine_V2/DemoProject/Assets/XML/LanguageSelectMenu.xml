@@ -1,0 +1,63 @@
+<WidgetList>
+    <Background>
+        <PositionComponent x = "0" y = "0" width = "-1" height = "-1" />
+        <SpriteComponent Sprite = "Assets/Background/LanguageBackground.png"/>
+    </Background>
+
+    <Widget name = "EnglishSelection">
+        <PositionComponent x = "10" y = "5" width = "225" height = "150" />
+        <ButtonComponent Sprite = "Assets/Localization/LanguageSprite/America.png" >
+            <ButtonCallback callback = "SetLanguage_English" />
+            <WidgetName name = "EnglishSelectionWidget"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255"/>
+        </ButtonComponent>
+    </Widget>
+
+    <Widget name = "FrenchSelection">
+        <PositionComponent x = "10" y = "160" width = "225" height = "150" />
+        <ButtonComponent Sprite = "Assets/Localization/LanguageSprite/France.png" >
+            <ButtonCallback callback = "SetLanguage_French" />
+            <WidgetName name = "FrenchSelectionWidget"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255"/>
+        </ButtonComponent>
+    </Widget>
+
+    <Widget name = "GermanSelection">
+        <PositionComponent x = "10" y = "312" width = "225" height = "150" />
+        <ButtonComponent Sprite = "Assets/Localization/LanguageSprite/German.png" >
+            <ButtonCallback callback = "SetLanguage_German" />
+            <WidgetName name = "GermanSelectionWidget"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255"/>
+        </ButtonComponent>
+    </Widget>
+
+    <Widget name = "ItalianSelection">
+        <PositionComponent x = "10" y = "466" width = "225" height = "150" />
+        <ButtonComponent Sprite = "Assets/Localization/LanguageSprite/Italy.png" >
+            <ButtonCallback callback = "SetLanguage_Italian" />
+            <WidgetName name = "ItalianSelectionWidget"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255"/>
+        </ButtonComponent>
+    </Widget>
+
+    <Widget name = "SpanishSelection">
+        <PositionComponent x = "10" y = "620" width = "225" height = "150" />
+        <ButtonComponent Sprite = "Assets/Localization/LanguageSprite/Spain.png" >
+            <ButtonCallback callback = "SetLanguage_Spanish" />
+            <WidgetName name = "SpanishSelectionWidget"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255"/>
+        </ButtonComponent>
+    </Widget>
+
+
+</WidgetList>

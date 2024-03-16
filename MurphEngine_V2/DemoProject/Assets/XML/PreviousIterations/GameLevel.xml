@@ -1,0 +1,19 @@
+<EntityList>
+    <Background>
+        <PositionComponent x = "0" y = "0" width = "-1" height = "-1" />
+        <SpriteComponent Sprite = "Assets/Background/GameBackground.png" />
+    </Background>
+
+    <Player>
+        <PositionComponent x = "50" y = "50" width = "50" height = "50" />
+        <SpriteComponent Sprite = "Assets/Sprites/Hero.png" />
+        <PlayerMovementComponent moveSpeed = "0.25f" />
+        <CollisionComponent Blocking = "true" />
+    </Player>
+
+    <Entity>
+        <PositionComponent x = "150" y = "150" width = "50" height = "50" />
+        <SpriteComponent Sprite = "Assets/Sprites/Enemy.png" />
+        <CollisionComponent Blocking = "true" />
+    </Entity>
+</EntityList>

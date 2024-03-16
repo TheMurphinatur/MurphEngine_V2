@@ -1,0 +1,13 @@
+<EntityList>
+
+    <Player>
+        <PositionComponent x = "120" y = "120" width = "200" height = "50" />
+        <SpriteComponent Sprite = "Assets/Buttons/Button.png" />
+    </Player>
+
+    <Entity>
+        <PositionComponent x = "170" y = "200" width = "200" height = "50" />
+        <SpriteComponent Sprite = "" />
+    </Entity>
+
+</EntityList>

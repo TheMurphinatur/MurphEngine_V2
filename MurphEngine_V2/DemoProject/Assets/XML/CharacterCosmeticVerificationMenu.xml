@@ -1,0 +1,54 @@
+<WidgetList>
+    <Background>
+        <PositionComponent x = "0" y = "0" width = "-1" height = "-1" />
+        <SpriteComponent Sprite = "Assets/Background/OutfitBackground.png"/>
+    </Background>
+
+    <Widget name = "ReadyText">
+        <PositionComponent x = "300" y = "100" width = "400" height = "50" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "30">
+            <Text outputText = "READY?!" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+ 
+    <Widget name = "PlayerChosenCosmetic">
+        <PositionComponent x = "350" y = "250" width = "200" height = "300" />
+        <PlayerChosenCosmetic />
+    </Widget>
+
+    <!-- Back Button -->      
+    <Widget name = "BackButtonWidget">
+        <PositionComponent x = "100" y = "660" width = "300" height = "75" />
+        <ButtonComponent Sprite = "Assets/Buttons/Button.png" >
+            <ButtonCallback callback = "PreviousScene" />
+            <WidgetName name = "BackButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "255" greenTint = "0" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "35">
+            <Text outputText = "BACK" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+
+    <!-- Back Button -->  
+    <Widget name = "PlayButtonWidget">
+        <PositionComponent x = "500" y = "660" width = "300" height = "75" />
+        <ButtonComponent Sprite = "Assets/Buttons/Button.png" >
+            <ButtonCallback callback = "PlayButton" />
+            <WidgetName name = "PlayButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "35">
+            <Text outputText = "PLAY" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+</WidgetList>

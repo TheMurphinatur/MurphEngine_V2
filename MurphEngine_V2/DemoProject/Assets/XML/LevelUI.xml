@@ -1,0 +1,60 @@
+<WidgetList>
+    <Widget name = "HUDBackground">
+        <PositionComponent x = "0" y = "0" width = "-1" height = "75" />
+        <SpriteComponent Sprite = "Assets/HUD/HUD.png" />
+    </Widget>
+
+    <!-- Health bar Icon-->
+    <Widget name = "HealthIcon">
+        <PositionComponent x = "5" y = "5" width = "65" height = "65" />
+        <SpriteComponent Sprite = "Assets/HUD/Heart.png" />
+    </Widget>
+
+    <Widget name = "HealthBarWidget">
+        <PositionComponent x = "100" y = "5" width = "130" height = "65" />        
+        <PlayerHealthDynamicBar traySprite = "Assets/HUD/Health bar/HealthTray.png" barSprite = "Assets/HUD/Health bar/HealthBar.png" >
+            <WidgetName name = "PlayerHealthDynamicBar"/>
+            <TrayTint redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+            <BarTint redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </PlayerHealthDynamicBar>
+    </Widget>
+
+    <Widget name = "HealthText">
+        <PositionComponent x = "250" y = "5" width = "130" height = "65" />    
+        <PlayerHealthTextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "50">
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </PlayerHealthTextComponent>
+    </Widget>
+
+
+    <!-- Currency Icon-->
+    <Widget name = "CurrencyIcon">
+        <PositionComponent x = "500" y = "5" width = "100" height = "65" />
+        <SpriteComponent Sprite = "Assets/HUD/Money.png" />
+    </Widget>
+    <Widget name = "WalletCounterWidget">
+        <PositionComponent x = "600" y = "5" width = "100" height = "65" />
+        <WalletWidgetComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "50">
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </WalletWidgetComponent>
+    </Widget>
+
+    <!-- Level Text-->
+    <Widget name = "LevelText">
+        <PositionComponent x = "800" y = "2" width = "100" height = "60" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "50">
+            <Text outputText = "LVL" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <Widget name = "LevelTextWidget">
+        <PositionComponent x = "910" y = "2" width = "50" height = "65" />    
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "50">
+            <Text outputText = "1" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+
+</WidgetList>

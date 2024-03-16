@@ -1,0 +1,60 @@
+<ButtonList>
+    <Background>
+        <PositionComponent x = "0" y = "0" width = "-1" height = "-1" />
+        <SpriteComponent Sprite = "Assets/Background/OptionsBackground.png"/>
+    </Background>
+
+    <Text>
+        <PositionComponent x = "350" y = "225" width = "300" height = "100" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+            <Text outputText = "OPTIONS" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Text>
+
+    <Button>
+        <PositionComponent x = "300" y = "610" width = "400" height = "90" />
+        <ButtonComponent Sprite = "Assets/Buttons/Button.png" >
+            <ButtonCallback callback = "DifficultyMenu" />
+            <ButtonName name = "DifficultyButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "35">
+            <Text outputText = "DIFFICULTY" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Button>
+
+    <Button>
+        <PositionComponent x = "300" y = "730" width = "400" height = "90" />
+        <ButtonComponent Sprite = "Assets/Buttons/Button.png" >
+            <ButtonCallback callback = "VolumeMenu" />
+            <ButtonName name = "VolumeButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "35">
+            <Text outputText = "VOLUME" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Button>
+
+    <Button>
+        <PositionComponent x = "300" y = "850" width = "400" height = "90" />
+        <ButtonComponent Sprite = "Assets/Buttons/Button.png" >
+            <ButtonCallback callback = "BackMenu" />
+            <ButtonName name = "BackButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "255" greenTint = "0" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "35">
+            <Text outputText = "BACK" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Button>
+
+</ButtonList>

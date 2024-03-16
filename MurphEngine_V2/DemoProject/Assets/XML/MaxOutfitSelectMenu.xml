@@ -1,0 +1,111 @@
+<WidgetList>
+    <Background>
+        <PositionComponent x = "0" y = "0" width = "-1" height = "-1" />
+        <SpriteComponent Sprite = "Assets/Background/OutfitBackground.png"/>
+    </Background>
+
+    <Widget name = "SelectOutfitText">
+        <PositionComponent x = "300" y = "100" width = "400" height = "50" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "30">
+            <Text outputText = "SELECT AN OUTFIT" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <!-- Pajamas -->
+    <Widget name = "MaxOutfitOneWidget">
+        <PositionComponent x = "35" y = "250" width = "200" height = "300" />
+        <ButtonComponent Sprite = "Assets/Characters/Max/MaxPajamas.png" >
+            <ButtonCallback callback = "MaxOutfitPajamas" />
+            <WidgetName name = "OutfitOneButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "150" greenTint = "150" blueTint = "150" alphaTint = "255"/>
+        </ButtonComponent>
+    </Widget>
+
+    <Widget name = "MaxOutfitOneText">
+        <PositionComponent x = "5" y = "550" width = "300" height = "50" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+            <Text outputText = "PAJAMAS" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <!-- Boy Scout -->
+    <Widget name = "MaxOutfitTwoWidget">
+        <PositionComponent x = "285" y = "250" width = "200" height = "300" />
+        <ButtonComponent Sprite = "Assets/Characters/Max/MaxBoyscout.png" >
+            <ButtonCallback callback = "MaxOutfitBoyScout" />
+            <WidgetName name = "OutfitTwoButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "150" greenTint = "150" blueTint = "150" alphaTint = "255"/>
+        </ButtonComponent>
+    </Widget>
+
+    <Widget name = "MaxOutfitTwoText">
+        <PositionComponent x = "255" y = "550" width = "300" height = "50" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+            <Text outputText = "BOYSCOUT" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <!-- Opera -->
+    <Widget name = "MaxOutfitThreeWidget">
+        <PositionComponent x = "545" y = "250" width = "200" height = "300" />
+        <ButtonComponent Sprite = "Assets/Characters/Max/MaxOpera.png" >
+            <ButtonCallback callback = "MaxOutfitOpera" />
+            <WidgetName name = "OutfitThreeButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "150" greenTint = "150" blueTint = "150" alphaTint = "255"/>
+        </ButtonComponent>
+    </Widget>
+
+    <Widget name = "MaxOutfitThreeText">
+        <PositionComponent x = "505" y = "550" width = "300" height = "50" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+            <Text outputText = "OPERA" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <!-- Wedding -->
+    <Widget name = "MaxOutfitfourWidget">
+        <PositionComponent x = "785" y = "250" width = "200" height = "300" />
+        <ButtonComponent Sprite = "Assets/Characters/Max/MaxWedding.png" >
+            <ButtonCallback callback = "MaxOutfitWedding" />
+            <WidgetName name = "OutfitFourButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "150" greenTint = "150" blueTint = "150" alphaTint = "255"/>
+        </ButtonComponent>
+    </Widget>
+
+    <Widget name = "MaxOutfitFourText">
+        <PositionComponent x = "755" y = "550" width = "300" height = "50" />
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "40">
+            <Text outputText = "WEDDING" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+    <!-- Back Button -->
+    <Widget name = "BackButtonWidget">
+        <PositionComponent x = "300" y = "660" width = "400" height = "75" />
+        <ButtonComponent Sprite = "Assets/Buttons/Button.png" >
+            <ButtonCallback callback = "PreviousScene" />
+            <WidgetName name = "BackButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "255" greenTint = "0" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "35">
+            <Text outputText = "BACK" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Widget>
+
+</WidgetList>

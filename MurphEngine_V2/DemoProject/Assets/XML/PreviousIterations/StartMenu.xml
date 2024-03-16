@@ -1,0 +1,23 @@
+<ButtonList>
+    <Background>
+        <PositionComponent x = "0" y = "0" width = "-1" height = "-1" />
+        <SpriteComponent Sprite = "Assets/Background/StartBackground.png"/>
+    </Background>
+
+
+    <Button>
+        <PositionComponent x = "100" y = "950" width = "800" height = "50" />
+        <ButtonComponent Sprite = "Assets/Buttons/StartButton.png" >
+            <ButtonCallback callback = "Start" />
+            <ButtonName name = "StartButton"/>
+            <ButtonAnchorPosition justification = "Center" />
+            <ButtonTint redTint = "0" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+            <ButtonHighlightTint redTint = "255" greenTint = "255" blueTint = "0" alphaTint = "255"/>
+        </ButtonComponent>
+        <TextComponent fontLocation = "Assets/Fonts/comicbd.ttf" fontSize = "25">
+            <Text outputText = "PRESS START" />
+            <TextColor  redTint = "255" greenTint = "255" blueTint = "255" alphaTint = "255" />
+        </TextComponent>
+    </Button>
+
+</ButtonList>
