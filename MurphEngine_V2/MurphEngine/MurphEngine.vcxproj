@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{40349796-7ec8-409b-9544-449dda5189dd}</ProjectGuid>
+    <RootNamespace>MurphEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)Build\Output\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Build\Intermediate\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)Build\Output\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Build\Intermediate\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)Build\Output\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Build\Intermediate\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)Build\Output\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Build\Intermediate\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)Middleware\SDL2\include;$(ProjectDir)Middleware\SDL2_image\include;$(ProjectDir)Middleware\SDL2_mixer\include;$(ProjectDir)Middleware\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)Middleware\SDL2\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\Output\DemoProject\$(PlatformShortName)\$(Configuration)\" /y /i /d
+xcopy "$(ProjectDir)Middleware\SDL2_image\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\Output\DemoProject\$(PlatformShortName)\$(Configuration)\" /y /i /d
+xcopy "$(ProjectDir)Middleware\SDL2_mixer\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\Output\DemoProject\$(PlatformShortName)\$(Configuration)\" /y /i /d
+xcopy "$(ProjectDir)Middleware\SDL2_TTF\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\Output\DemoProject\$(PlatformShortName)\$(Configuration)\" /y /i /d</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalDependencies>SDL2.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)Middleware\SDL2\lib\$(PlatformShortName)\;$(ProjectDir)Middleware\SDL2_image\lib\$(PlatformShortName)\;$(ProjectDir)Middleware\SDL2_mixer\lib\$(PlatformShortName)\;$(ProjectDir)Middleware\SDL2_TTF\lib\$(PlatformShortName)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4006</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)Middleware\SDL2\include;$(ProjectDir)Middleware\SDL2_image\include;$(ProjectDir)Middleware\SDL2_mixer\include;$(ProjectDir)Middleware\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)Middleware\SDL2\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\Output\DemoProject\$(PlatformShortName)\$(Configuration)\" /y /i /d
+xcopy "$(ProjectDir)Middleware\SDL2_image\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\Output\DemoProject\$(PlatformShortName)\$(Configuration)\" /y /i /d
+xcopy "$(ProjectDir)Middleware\SDL2_mixer\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\Output\DemoProject\$(PlatformShortName)\$(Configuration)\" /y /i /d
+xcopy "$(ProjectDir)Middleware\SDL2_TTF\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\Output\DemoProject\$(PlatformShortName)\$(Configuration)\" /y /i /d</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalDependencies>SDL2.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)Middleware\SDL2\lib\$(PlatformShortName)\;$(ProjectDir)Middleware\SDL2_image\lib\$(PlatformShortName)\;$(ProjectDir)Middleware\SDL2_mixer\lib\$(PlatformShortName)\;$(ProjectDir)Middleware\SDL2_TTF\lib\$(PlatformShortName)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4006</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)Middleware\SDL2\include;$(ProjectDir)Middleware\SDL2_image\include;$(ProjectDir)Middleware\SDL2_mixer\include;$(ProjectDir)Middleware\SDL2_TTF\include;$(ProjectDir)Middleware\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)Middleware\SDL2\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\Output\DemoProject\$(PlatformShortName)\$(Configuration)\" /y /i /d
+xcopy "$(ProjectDir)Middleware\SDL2_image\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\Output\DemoProject\$(PlatformShortName)\$(Configuration)\" /y /i /d
+xcopy "$(ProjectDir)Middleware\SDL2_mixer\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\Output\DemoProject\$(PlatformShortName)\$(Configuration)\" /y /i /d
+xcopy "$(ProjectDir)Middleware\SDL2_TTF\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\Output\DemoProject\$(PlatformShortName)\$(Configuration)\" /y /i /d</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalDependencies>SDL2.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;tinyXML2.lib</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)Middleware\SDL2\lib\$(PlatformShortName)\;$(ProjectDir)Middleware\SDL2_image\lib\$(PlatformShortName)\;$(ProjectDir)Middleware\SDL2_mixer\lib\$(PlatformShortName)\;$(ProjectDir)Middleware\SDL2_TTF\lib\$(PlatformShortName)\;$(ProjectDir)Middleware\tinyXML2\lib\$(PlatformShortName)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4006</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)Middleware\SDL2\include;$(ProjectDir)Middleware\SDL2_image\include;$(ProjectDir)Middleware\SDL2_mixer\include;$(ProjectDir)Middleware\SDL2_TTF\include;$(ProjectDir)Middleware\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)Middleware\SDL2\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\Output\DemoProject\$(PlatformShortName)\$(Configuration)\" /y /i /d
+xcopy "$(ProjectDir)Middleware\SDL2_image\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\Output\DemoProject\$(PlatformShortName)\$(Configuration)\" /y /i /d
+xcopy "$(ProjectDir)Middleware\SDL2_mixer\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\Output\DemoProject\$(PlatformShortName)\$(Configuration)\" /y /i /d
+xcopy "$(ProjectDir)Middleware\SDL2_TTF\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\Output\DemoProject\$(PlatformShortName)\$(Configuration)\" /y /i /d</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalDependencies>SDL2.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;tinyXML2.lib</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)Middleware\SDL2\lib\$(PlatformShortName)\;$(ProjectDir)Middleware\SDL2_image\lib\$(PlatformShortName)\;$(ProjectDir)Middleware\SDL2_mixer\lib\$(PlatformShortName)\;$(ProjectDir)Middleware\SDL2_TTF\lib\$(PlatformShortName)\;$(ProjectDir)Middleware\tinyXML2\lib\$(PlatformShortName)\$(Configuration);</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4006</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CoreConcepts\Color\ColorValues.h" />
+    <ClInclude Include="CoreConcepts\Component\Component.h" />
+    <ClInclude Include="CoreConcepts\Component\EngineLevelComponents\ButtonComponent\ButtonComponent.h" />
+    <ClInclude Include="CoreConcepts\Component\EngineLevelComponents\ButtonComponent\CheckBoxComponent\CheckBoxComponent.h" />
+    <ClInclude Include="CoreConcepts\Component\EngineLevelComponents\ButtonComponent\DynamicBarComponent\DynamicBarComponent.h" />
+    <ClInclude Include="CoreConcepts\Component\EngineLevelComponents\ButtonComponent\SliderComponent\SliderComponent.h" />
+    <ClInclude Include="CoreConcepts\Component\EngineLevelComponents\ButtonComponent\ToggleComponent\ToggleComponent.h" />
+    <ClInclude Include="CoreConcepts\Component\EngineLevelComponents\CollisionComponent\CollisionComponent.h" />
+    <ClInclude Include="CoreConcepts\Component\EngineLevelComponents\MovementComponent\MovementComponent.h" />
+    <ClInclude Include="CoreConcepts\Component\EngineLevelComponents\PositionComponent\PositionComponent.h" />
+    <ClInclude Include="CoreConcepts\Component\EngineLevelComponents\SpriteComponent\SpriteComponent.h" />
+    <ClInclude Include="CoreConcepts\Component\EngineLevelComponents\TextComponent\TextComponent.h" />
+    <ClInclude Include="CoreConcepts\Entity\Entity.h" />
+    <ClInclude Include="CoreConcepts\Entity\InterfaceEntity\InterfaceEntity.h" />
+    <ClInclude Include="CoreSystems\Application\Application.h" />
+    <ClInclude Include="CoreSystems\AssetManagers\Asset Metadata\FontMetadata.h" />
+    <ClInclude Include="CoreSystems\AssetManagers\Asset Metadata\MetadataBase.h" />
+    <ClInclude Include="CoreSystems\AssetManagers\Asset Metadata\SpriteMetadata.h" />
+    <ClInclude Include="CoreSystems\AssetManagers\FontManager\FontManager.h" />
+    <ClInclude Include="CoreSystems\AssetManagers\ResourceManager.h" />
+    <ClInclude Include="CoreSystems\AssetManagers\SpriteManager\TextureManager.h" />
+    <ClInclude Include="CoreSystems\EntityManager\EntityManager.h" />
+    <ClInclude Include="CoreSystems\GraphicsManager\GraphicsManager.h" />
+    <ClInclude Include="CoreSystems\InputManager\InputManager.h" />
+    <ClInclude Include="CoreSystems\LocalizationManager\LocalizationManager.h" />
+    <ClInclude Include="CoreSystems\MurphEngine.h" />
+    <ClInclude Include="CoreSystems\SceneManager\SceneManager.h" />
+    <ClInclude Include="CoreSystems\SceneManager\Scene\Scene.h" />
+    <ClInclude Include="CoreSystems\TimeManager\TimeManager.h" />
+    <ClInclude Include="CoreSystems\XMLParser\EngineParser.h" />
+    <ClInclude Include="CoreSystems\XMLParser\WindowParser.h" />
+    <ClInclude Include="CoreSystems\XMLParser\XMLParser.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="LoggingSystem\Logging.h" />
+    <ClInclude Include="Math\Math.h" />
+    <ClInclude Include="Math\MurphRandomGenerator.h" />
+    <ClInclude Include="Math\Rect.h" />
+    <ClInclude Include="Math\Vector.h" />
+    <ClInclude Include="Middleware\Bleach_New\BleachNew.h" />
+    <ClInclude Include="Middleware\Bleach_New\BleachNewConfig.h" />
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CoreConcepts\Component\Component.cpp" />
+    <ClCompile Include="CoreConcepts\Component\EngineLevelComponents\ButtonComponent\ButtonComponent.cpp" />
+    <ClCompile Include="CoreConcepts\Component\EngineLevelComponents\ButtonComponent\CheckBoxComponent\CheckBoxComponent.cpp" />
+    <ClCompile Include="CoreConcepts\Component\EngineLevelComponents\ButtonComponent\DynamicBarComponent\DynamicBarComponent.cpp" />
+    <ClCompile Include="CoreConcepts\Component\EngineLevelComponents\ButtonComponent\SliderComponent\SliderComponent.cpp" />
+    <ClCompile Include="CoreConcepts\Component\EngineLevelComponents\ButtonComponent\ToggleComponent\ToggleComponent.cpp" />
+    <ClCompile Include="CoreConcepts\Component\EngineLevelComponents\CollisionComponent\CollisionComponent.cpp" />
+    <ClCompile Include="CoreConcepts\Component\EngineLevelComponents\MovementComponent\MovementComponent.cpp" />
+    <ClCompile Include="CoreConcepts\Component\EngineLevelComponents\PositionComponent\PositionComponent.cpp" />
+    <ClCompile Include="CoreConcepts\Component\EngineLevelComponents\SpriteComponent\SpriteComponent.cpp" />
+    <ClCompile Include="CoreConcepts\Component\EngineLevelComponents\TextComponent\TextComponent.cpp" />
+    <ClCompile Include="CoreConcepts\Entity\Entity.cpp" />
+    <ClCompile Include="CoreConcepts\Entity\InterfaceEntity\InterfaceEntity.cpp" />
+    <ClCompile Include="CoreSystems\Application\Application.cpp" />
+    <ClCompile Include="CoreSystems\AssetManagers\Asset Metadata\FontMetadata.cpp" />
+    <ClCompile Include="CoreSystems\AssetManagers\Asset Metadata\SpriteMetadata.cpp" />
+    <ClCompile Include="CoreSystems\AssetManagers\FontManager\FontManager.cpp" />
+    <ClCompile Include="CoreSystems\AssetManagers\ResourceManager.cpp" />
+    <ClCompile Include="CoreSystems\AssetManagers\SpriteManager\TextureManager.cpp" />
+    <ClCompile Include="CoreSystems\EntityManager\EntityManager.cpp" />
+    <ClCompile Include="CoreSystems\GraphicsManager\GraphicsManager.cpp" />
+    <ClCompile Include="CoreSystems\InputManager\InputManager.cpp" />
+    <ClCompile Include="CoreSystems\LocalizationManager\LocalizationManager.cpp" />
+    <ClCompile Include="CoreSystems\MurphEngine.cpp" />
+    <ClCompile Include="CoreSystems\SceneManager\SceneManager.cpp" />
+    <ClCompile Include="CoreSystems\SceneManager\Scene\Scene.cpp" />
+    <ClCompile Include="CoreSystems\TimeManager\TimeManager.cpp" />
+    <ClCompile Include="CoreSystems\XMLParser\EngineParser.cpp" />
+    <ClCompile Include="CoreSystems\XMLParser\WindowParser.cpp" />
+    <ClCompile Include="CoreSystems\XMLParser\XMLParser.cpp" />
+    <ClCompile Include="LoggingSystem\Logging.cpp" />
+    <ClCompile Include="Math\MurphRandomGenerator.cpp" />
+    <ClCompile Include="Math\Vector.cpp" />
+    <ClCompile Include="Middleware\Bleach_New\BleachNew.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

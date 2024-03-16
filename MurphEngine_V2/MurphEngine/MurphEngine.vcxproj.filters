@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CoreSystems">
+      <UniqueIdentifier>{0d744611-ea89-4040-8c7c-5e5060c11061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Middleware">
+      <UniqueIdentifier>{035e5a32-9ac8-411f-a52e-c82694f10005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Middleware\Bleach_New">
+      <UniqueIdentifier>{dfeadee1-8d06-40a7-9522-db8e7497627c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreSystems\GraphicsManager">
+      <UniqueIdentifier>{cbb032bc-3ff0-4c88-bed5-78fce300dc4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{fb3015fe-8474-4e61-bb5d-5987af245324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{98162e20-a229-4f4a-b942-52f76b8d1177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreSystems\Application">
+      <UniqueIdentifier>{b1761f0b-28ab-4036-99b1-15bc36fa55a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreSystems\TimeManager">
+      <UniqueIdentifier>{1ed5b714-15bb-4201-a2d2-ca9deff8b5c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreSystems\InputManager">
+      <UniqueIdentifier>{d26e1c39-23ba-4736-9813-6a2fbe91fdb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreSystems\EntityManager">
+      <UniqueIdentifier>{0c1a66ba-a8d6-4840-ab11-4da0c627f7a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreConcepts">
+      <UniqueIdentifier>{5ba3951d-23b5-4cd3-ab9b-90c415886146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreConcepts\Entity">
+      <UniqueIdentifier>{3d3e5f61-6272-46f5-98c7-f9c1fe24b340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreConcepts\Component">
+      <UniqueIdentifier>{174a3347-af9b-4923-8916-ee9a0b330a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreConcepts\Component\SpriteComponent">
+      <UniqueIdentifier>{0c1ee726-3112-4600-8bcb-74588bf76a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreConcepts\Component\PositionComponent">
+      <UniqueIdentifier>{a4cc2bf2-014b-4eab-95dd-510a233ca923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreConcepts\Component\TextComponent">
+      <UniqueIdentifier>{df25ef37-335b-4167-bc90-5be6285915b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreConcepts\Color">
+      <UniqueIdentifier>{db3d06d7-954a-4711-a438-b290e3fa9d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreSystems\AssetManagers">
+      <UniqueIdentifier>{bf80e29e-ee24-466a-a1d4-852c53b52c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreSystems\AssetManagers\FontManager">
+      <UniqueIdentifier>{e0a72180-2812-4e54-be1c-ff97e2fcfe07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreSystems\AssetManagers\SoundManager">
+      <UniqueIdentifier>{f1513e76-eeec-4560-8891-449f0123c3ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreSystems\AssetManagers\AssetMetadata">
+      <UniqueIdentifier>{45e07798-fdd7-44ba-9a3a-b240a98fe7ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreSystems\AssetManagers\AssetMetadata\FontMetaData">
+      <UniqueIdentifier>{5d25b3cf-b24f-4012-b20b-d0040757e65c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreSystems\AssetManagers\AssetMetadata\SpriteMetadata">
+      <UniqueIdentifier>{c274fad5-abdf-45d5-8809-9f431d6eddcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreSystems\XMLParser">
+      <UniqueIdentifier>{0d08af32-97ab-46ca-ac24-5444b2a44c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreSystems\AssetManagers\TextureManager">
+      <UniqueIdentifier>{c9163719-8e91-47ec-ab74-d02bd45ca272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreConcepts\Component\ButtonComponent">
+      <UniqueIdentifier>{7f97a192-e42d-4f8c-bb03-46362f2c632d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreConcepts\Component\ButtonComponent\CheckBoxComponent">
+      <UniqueIdentifier>{605d2d30-0e01-43d8-9fb5-52b7a0362104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreConcepts\Component\ButtonComponent\SliderComponent">
+      <UniqueIdentifier>{dd65504c-e999-401c-91a6-97615b8ac3ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreConcepts\Component\ButtonComponent\ToggleComponent">
+      <UniqueIdentifier>{f9fc2873-ad46-4279-a561-50f00d075b44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreConcepts\Entity\Interface">
+      <UniqueIdentifier>{0f19269d-6d52-4906-8e9f-5fe82d9c6503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreSystems\SceneManager">
+      <UniqueIdentifier>{b5e3a3e7-6a8b-4528-b918-0890f311b370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreSystems\SceneManager\Scene">
+      <UniqueIdentifier>{6fb646cc-e436-49a4-86ae-03f87db0fa3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreConcepts\Component\MovementComponent">
+      <UniqueIdentifier>{9b56a0ec-2c19-4aca-bf39-fa203b7f5f1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreConcepts\Component\MovementComponent\InputComponent">
+      <UniqueIdentifier>{e17f9e9a-69a1-4594-b8d0-3f45b14c3dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreConcepts\Component\CollisionComponent">
+      <UniqueIdentifier>{4b0e2a3a-9416-4946-a803-11502d202c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreConcepts\Component\ButtonComponent\DynamicBarComponent">
+      <UniqueIdentifier>{891833b1-c6bd-49a6-bfe4-1861d898e6ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreSystems\LocalizationManager">
+      <UniqueIdentifier>{55a6914e-d8ce-432e-a363-ab7f861b5eb3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreSystems\MurphEngine.h">
+      <Filter>CoreSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Middleware\Bleach_New\BleachNew.h">
+      <Filter>Middleware\Bleach_New</Filter>
+    </ClInclude>
+    <ClInclude Include="Middleware\Bleach_New\BleachNewConfig.h">
+      <Filter>Middleware\Bleach_New</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreSystems\GraphicsManager\GraphicsManager.h">
+      <Filter>CoreSystems\GraphicsManager</Filter>
+    </ClInclude>
+    <ClInclude Include="LoggingSystem\Logging.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreSystems\Application\Application.h">
+      <Filter>CoreSystems\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreSystems\TimeManager\TimeManager.h">
+      <Filter>CoreSystems\TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreSystems\InputManager\InputManager.h">
+      <Filter>CoreSystems\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreSystems\EntityManager\EntityManager.h">
+      <Filter>CoreSystems\EntityManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreConcepts\Entity\Entity.h">
+      <Filter>CoreConcepts\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreConcepts\Component\Component.h">
+      <Filter>CoreConcepts\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreConcepts\Component\EngineLevelComponents\SpriteComponent\SpriteComponent.h">
+      <Filter>CoreConcepts\Component\SpriteComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreConcepts\Component\EngineLevelComponents\PositionComponent\PositionComponent.h">
+      <Filter>CoreConcepts\Component\PositionComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreConcepts\Component\EngineLevelComponents\TextComponent\TextComponent.h">
+      <Filter>CoreConcepts\Component\TextComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreConcepts\Color\ColorValues.h">
+      <Filter>CoreConcepts\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreSystems\AssetManagers\FontManager\FontManager.h">
+      <Filter>CoreSystems\AssetManagers\FontManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreSystems\AssetManagers\ResourceManager.h">
+      <Filter>CoreSystems\AssetManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreSystems\AssetManagers\Asset Metadata\MetadataBase.h">
+      <Filter>CoreSystems\AssetManagers\AssetMetadata</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreSystems\XMLParser\XMLParser.h">
+      <Filter>CoreSystems\XMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreSystems\XMLParser\EngineParser.h">
+      <Filter>CoreSystems\XMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreSystems\AssetManagers\Asset Metadata\SpriteMetadata.h">
+      <Filter>CoreSystems\AssetManagers\AssetMetadata\SpriteMetadata</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreSystems\AssetManagers\SpriteManager\TextureManager.h">
+      <Filter>CoreSystems\AssetManagers\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreConcepts\Component\EngineLevelComponents\ButtonComponent\ButtonComponent.h">
+      <Filter>CoreConcepts\Component\ButtonComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Rect.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreConcepts\Component\EngineLevelComponents\ButtonComponent\SliderComponent\SliderComponent.h">
+      <Filter>CoreConcepts\Component\ButtonComponent\SliderComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreConcepts\Component\EngineLevelComponents\ButtonComponent\ToggleComponent\ToggleComponent.h">
+      <Filter>CoreConcepts\Component\ButtonComponent\ToggleComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreConcepts\Component\EngineLevelComponents\ButtonComponent\CheckBoxComponent\CheckBoxComponent.h">
+      <Filter>CoreConcepts\Component\ButtonComponent\CheckBoxComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreConcepts\Entity\InterfaceEntity\InterfaceEntity.h">
+      <Filter>CoreConcepts\Entity\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreSystems\SceneManager\SceneManager.h">
+      <Filter>CoreSystems\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreSystems\SceneManager\Scene\Scene.h">
+      <Filter>CoreSystems\SceneManager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreConcepts\Component\EngineLevelComponents\MovementComponent\MovementComponent.h">
+      <Filter>CoreConcepts\Component\MovementComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreConcepts\Component\EngineLevelComponents\CollisionComponent\CollisionComponent.h">
+      <Filter>CoreConcepts\Component\CollisionComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreSystems\XMLParser\WindowParser.h">
+      <Filter>CoreSystems\XMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MurphRandomGenerator.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreSystems\AssetManagers\Asset Metadata\FontMetadata.h">
+      <Filter>CoreSystems\AssetManagers\AssetMetadata\FontMetaData</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreConcepts\Component\EngineLevelComponents\ButtonComponent\DynamicBarComponent\DynamicBarComponent.h">
+      <Filter>CoreConcepts\Component\ButtonComponent\DynamicBarComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreSystems\LocalizationManager\LocalizationManager.h">
+      <Filter>CoreSystems\LocalizationManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreSystems\MurphEngine.cpp">
+      <Filter>CoreSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Middleware\Bleach_New\BleachNew.cpp">
+      <Filter>Middleware\Bleach_New</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreSystems\GraphicsManager\GraphicsManager.cpp">
+      <Filter>CoreSystems\GraphicsManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreSystems\Application\Application.cpp">
+      <Filter>CoreSystems\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreSystems\TimeManager\TimeManager.cpp">
+      <Filter>CoreSystems\TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreSystems\InputManager\InputManager.cpp">
+      <Filter>CoreSystems\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreSystems\EntityManager\EntityManager.cpp">
+      <Filter>CoreSystems\EntityManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreConcepts\Entity\Entity.cpp">
+      <Filter>CoreConcepts\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="LoggingSystem\Logging.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreConcepts\Component\Component.cpp">
+      <Filter>CoreConcepts\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreConcepts\Component\EngineLevelComponents\SpriteComponent\SpriteComponent.cpp">
+      <Filter>CoreConcepts\Component\SpriteComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreConcepts\Component\EngineLevelComponents\PositionComponent\PositionComponent.cpp">
+      <Filter>CoreConcepts\Component\PositionComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreConcepts\Component\EngineLevelComponents\TextComponent\TextComponent.cpp">
+      <Filter>CoreConcepts\Component\TextComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreSystems\AssetManagers\FontManager\FontManager.cpp">
+      <Filter>CoreSystems\AssetManagers\FontManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreSystems\AssetManagers\ResourceManager.cpp">
+      <Filter>CoreSystems\AssetManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreSystems\XMLParser\XMLParser.cpp">
+      <Filter>CoreSystems\XMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreSystems\XMLParser\EngineParser.cpp">
+      <Filter>CoreSystems\XMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreSystems\AssetManagers\Asset Metadata\SpriteMetadata.cpp">
+      <Filter>CoreSystems\AssetManagers\AssetMetadata\SpriteMetadata</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreSystems\AssetManagers\SpriteManager\TextureManager.cpp">
+      <Filter>CoreSystems\AssetManagers\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreConcepts\Component\EngineLevelComponents\ButtonComponent\ButtonComponent.cpp">
+      <Filter>CoreConcepts\Component\ButtonComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreConcepts\Component\EngineLevelComponents\ButtonComponent\SliderComponent\SliderComponent.cpp">
+      <Filter>CoreConcepts\Component\ButtonComponent\SliderComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreConcepts\Component\EngineLevelComponents\ButtonComponent\ToggleComponent\ToggleComponent.cpp">
+      <Filter>CoreConcepts\Component\ButtonComponent\ToggleComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreConcepts\Component\EngineLevelComponents\ButtonComponent\CheckBoxComponent\CheckBoxComponent.cpp">
+      <Filter>CoreConcepts\Component\ButtonComponent\CheckBoxComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreConcepts\Entity\InterfaceEntity\InterfaceEntity.cpp">
+      <Filter>CoreConcepts\Entity\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreSystems\SceneManager\SceneManager.cpp">
+      <Filter>CoreSystems\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreSystems\SceneManager\Scene\Scene.cpp">
+      <Filter>CoreSystems\SceneManager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreConcepts\Component\EngineLevelComponents\MovementComponent\MovementComponent.cpp">
+      <Filter>CoreConcepts\Component\MovementComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreConcepts\Component\EngineLevelComponents\CollisionComponent\CollisionComponent.cpp">
+      <Filter>CoreConcepts\Component\CollisionComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreSystems\XMLParser\WindowParser.cpp">
+      <Filter>CoreSystems\XMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\MurphRandomGenerator.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreSystems\AssetManagers\Asset Metadata\FontMetadata.cpp">
+      <Filter>CoreSystems\AssetManagers\AssetMetadata\FontMetaData</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreConcepts\Component\EngineLevelComponents\ButtonComponent\DynamicBarComponent\DynamicBarComponent.cpp">
+      <Filter>CoreConcepts\Component\ButtonComponent\DynamicBarComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreSystems\LocalizationManager\LocalizationManager.cpp">
+      <Filter>CoreSystems\LocalizationManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

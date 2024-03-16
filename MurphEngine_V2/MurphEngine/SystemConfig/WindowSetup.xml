@@ -1,0 +1,9 @@
+<WindowSetup>
+
+    <Window>
+        <WindowTitle title = "UI Class XML Test"/>
+        <StartLocation x = "500" y = "150"/>
+        <WindowSize width = "1024" height = "768" />
+    </Window>
+    
+</WindowSetup>
